@@ -1,5 +1,5 @@
 <template>
-  <div class="about">
+  <div>
     <h1>This is an Home page</h1>
   </div>
 </template>
@@ -12,3 +12,5 @@ export default {
   components: {},
 };
 </script>
+
+Navigation Navigation
