@@ -4,6 +4,9 @@
       <div class="container-fluid">
         <router-link class="navbar-brand" to="/">Meeting Log</router-link>
         <div class="navbar-nav mlauto">
+
+          <!-- <router-link class="nav-item nav-link" to="/home">Home</router-link> -->
+
           <router-link class="nav-item nav-link" to="/about">About</router-link>
 
           <router-link class="nav-item nav-link" to="/login">Login</router-link>
