@@ -41,26 +41,16 @@
 <script>
 // @ is an alias to /src
 import {FontAwesomeIcon} from "@fortawesome/vue-fontawesome"
-import db from "../db.js"
+
 export default {
   name: "Home",
-  data(){
-    return {
-      user: null,
-      }
+  props: [
+    "user"
+  ],
 
-  },
-
-  mounted(){
-    db.collection("users")
-    .doc("dPFbG4ussxMpxnQh788N")
-    .get()
-    .then(snapshot => {
-      this.user = snapshot.data().user_name;
-    })
-
-  },
   components: {FontAwesomeIcon },
+
+
 };
 </script>
 
